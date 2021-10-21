@@ -34,17 +34,24 @@ main {
 aside {
 	background-color: lightgreen;	
 }
+	
+	div#header {min-width:100%;
+	overflow:hidden;}
+	div#nav{max-width:22.5%;}
+	div#main{max-width:45%;}
+	div#aside{max-width:22.5%;}
+	
 
 </style>
 </head>
 
 <body>
 
-<header>
+<div id="header">
 <h1>Mount Olympus News</h1>
 </header>
-	
-<nav>
+</div>
+<div ID="nav">
 	<h2>Links to Stories</h2>
 	<ul id="stories">
 	<li><a href="">Jupiter & His Mighty Company</a></li>
@@ -59,9 +66,9 @@ aside {
 	<li><a href="">The Horse and the Olive</a></li>
 	</ul>
 </nav>
+</div>
 
-
-<aside>
+<div id="aside">
 	<h2>News</h2>
 	<ul>
 	<li><strong>Pandora opens the box!</strong><br /> Disease and sorrow released to plague mankind for eternity. <a href="foo">More...</a></li>
@@ -70,9 +77,9 @@ aside {
 	Arachne loses weave-off; is changed into a spider. <a href="">More...</a></li>
 	</ul>
 </aside>
+	</div>
 	
-	
-<main>
+<div id="main">
 <h2>Prometheus Heats Things Up</h2>
     <p>Prometheus did not care to live amid the clouds on the mountain top. He was too
     busy for that. While the Mighty Folk were spending their time in idleness, drinking
@@ -114,12 +121,12 @@ aside {
     and instead of lurking in the dark places of the world, they came out into the open
     air and the bright sunlight, and were glad because life had been given to them.</p>
 </main>
+	</div>
 
-
-<footer>
+<div id="footer">
 	<p>Content taken from <cite>Old Greek Stories</cite> by James Baldwin (1914). It is a copyright free text available at <a href="http://www.gutenberg.net/1/1/5/8/11582/">Project Gutenberg</a>.</p>
 </footer>
-
+	</div>
 	
 </body>
 </html>
