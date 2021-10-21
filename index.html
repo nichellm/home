@@ -34,17 +34,31 @@ main {
 aside {
 	background-color: lightgreen;	
 }
-	
-	div#header {min-width:100%;
-	overflow:hidden;}
-	div#nav{max-width:22.5%;}
-	div#main{max-width:45%;}
-	div#aside{max-width:22.5%;}
+	html, body {
+    height: 100%;
+    margin: 0;
+}
+	div#content-box {
+		max-width:100%;}
+	div#header {
+		width:100%;
+		hieght:20%;
+	div#nav{
+		width:22.5%;
+		hieght:400px;
+		float:clear;
+		margin-top:2em;}
+	div#main{
+		width:45%;
+		float:left;}
+	div#aside{
+		width:22.5%;
+		float:left;}
 	
 
 </style>
 </head>
-<div id=wrapper>
+<div id="content-box">
 <body>
 
 <div id="header">
