@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title></title>
+   
+    </head>
+<style>
+
+    html{ background-color:rgb(134, 118, 124);
+    opacity: 1;}
+    #wrapper {
+        margin:0 auto;
+        width:80%;
+        background-color: rgb(166,146,147);
+        overflow:hidden;
+    }
+    header{
+        margin:0 auto;
+        width:1200px;
+    }
+    #nav1 {
+  width:1200px;
+  margin:0 auto;
+  list-style:none;
+  background-color: #333;
+  padding: 0;
+  overflow: hidden;
+  }
+  #nav1 li {
+  float:left;
+  }
+  #nav1 a {
+  display:inline-block;
+  text-align:center;
+  color:white;
+  width:150px; 
+  text-decoration:none; 
+  padding: 14px 16px;
+   
+}
+#nav1 a:hover{
+background-color: #111;
+}
+h2, h1{
+    text-align: center;
+}
+
+    #summary{
+        width:1150px;
+        margin: 0 auto;
+        background-color: white;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    #columnarea{
+        margin:0 auto;
+        width:1200px;
+        min-height: 800px;
+    }
+#column-left {
+    width:350px;
+    background-color:rgb(134, 118, 124);
+    float:left;
+    margin-right:35px;
+    padding-left:10px;
+}
+img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+	}
+
+#column-center {
+    width:350px;
+    background-color:rgb(134, 118, 124);
+    padding-right:20px;
+    float:left;
+    Margin-right:35px;
+    padding-left:10px;
+    padding-bottom:35px;
+}
+
+div#column-right {
+width:350px;
+background-color:rgb(134, 118, 124);;
+padding-right:20px;
+float:left;
+padding-left:10px;
+
+}
+table, th, td {
+    border:1px solid black !important;
+    margin: 0 auto;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    margin-top: 20px;
+    clear:both;
+min-height:100%;
+color:rgb(134, 118, 124);
+}
+
+
+
+</style>
+<body>
+    <div id="wrapper">
+<header>
+
+<img src=" /home/images/BANNER2.jpg">
+
+</header>
+<ul id="nav1">
+    <li><a href="/home/index.html">Home</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="/home/pages/links.html">Links</a></li>
+    <li><a href="#">Freelance Services</a></li>
+    <li><a href="#">Resume</a></li>
+  
+  </ul> 
+
+<div id="summary">
+
+<div id="summary">
+    <h1>Pete's Venus Cafe' GDD</h1>
+    <p>Link to full word document <a href="/home/doc/GDD_Game1.docx">(Link)</a>
+    <p>Link to game play video <a href="https://youtu.be/c7A1Xbc4dYE" target="_blank"> (Link) </a> </p>
+    <p>Play Game <a href="https://mochime1.itch.io/petes-venus-cafe" target="_blank"> (Link)</a> </p>
+
+<h2>>Game Title</h2>
+<p>
+Welcome to the game “Pete’s Venus Café”, a title that uses a little bit of purple cow/In the know naming structure. 
+Is the café on Venus? Is the game related to love? What kind of person is Pete? Our gamers will be enticed, then stupefied by the out 
+of this world nature of this slice of life game. </p>
+
+<h2>Game System </h2>
+
+<p>Web or Mobile using cursor/selection. This is more of a down time game, simple and fulfilling.
+This game could be played while waiting at the bus stop or as a break in between studying for Tech 190 quizzes. 
+The controls need to be simple enough to kill time easily and get the player addicted.  </p>
+
+<h2>Audience and Rating </h2>
+
+<p>Rated T for Teen, the reason being there is simulated gambling and minimal blood. Enter this café hungry
+but you might not walk out with your life. Also Pete’s comic mischief as a café owner would be more puny to players
+mature enough to also understand nature and business practices. And in the process they might even learn something new. </p>
+<h2>Game Summary </h2>
+<p>This is a space café on Mars that happens to be housed inside of a humongous Venus Flytrap. 
+The player is a hungry space citizen and Pete, our harmless looking plant alien, is both our waiter 
+and the owner who runs the café VERY sustainably. To reduce overharvesting of resources across the galaxy Pete 
+has customers pick planet #’s at random to source their food ingredients from. Left over food from customers even 
+cycles into keeping up the establishment to pay rent (feed the Venus Fly Trap holding the Cafe). If Pete can’t guess 
+your numbered planet, he can’t be sustainable, and then there won’t be any leftovers to maintain the café. However, 
+if Pete does guess your planet #, you get to select your ingredients from the market shelves of the planet you picked using Pete’s portal gun. </p>
+<h2>Level 1-2 Intersectionality </h2>
+<p>They both have the theme of being “slice of space life” that pairs the number convention with location and 
+selection with retrieval. Without picking a planet in level 1 players wouldn’t have a planet market to visit in
+level 2 to obtain ingredients for their meal. Again, Pete is very sustainable (and possibly cheap on labor) so 
+he’ll cook what ever you like but you also have to play a larger part in orchestrating the meal you get. 
+</p>
+
+
+
+
+</div> <!--End for Div for Contents, col 1-3-->
+
+<div class="footer">
+  <footer>
+      This website was made by Nichelle McMiller |<a href="mailto:nichellm@terpmail.umd.edu" title="email me!">[E-Mail]</a> | <a href="#top">[Back to Top Page]</a> | <a href="#"> Home Page</a>
+  </footer>
+</div>
+</body>
+  </html>
